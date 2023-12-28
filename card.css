@@ -1,0 +1,100 @@
+h1{
+  color:darkblue;
+  text-align: center;
+  background-color: rgb(223, 228, 227);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.card1{
+    width:20vw;
+    height: 70vh;
+    border-radius: 20px;
+    flex-direction: row;
+    background-color:rgba(205, 161, 161, 0.564);
+    float:right;
+}
+ .card1:hover {
+  box-shadow: 0 4px 8px 0 rgba(199, 49, 104, 0.997) 
+ }
+  .card2{
+    width:320px;
+    height: 70vh;
+    border-radius: 20px;
+    flex-direction: row;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: #C38154;
+    float:right;
+    margin-left: 15rem;
+    margin-right: 1rem;
+    margin-top: 0rem;
+  }
+  .card2:hover {
+    box-shadow: 0 4px 8px 0 rgb(206, 86, 188) 
+  }
+  
+
+  .container1 {
+   
+    padding: 70px 16px;
+    color:rgb(223, 171, 188);
+    background-color: rgb(149, 20, 20);
+  }
+  .container2{
+    padding: 20px 16px;
+    color:rgb(73, 134, 136);
+    background-color: floralwhite;
+  }
+  
+
+  .flip-card{ 
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(33, 139, 175, 0.2);
+    transition: 0.3s;
+    background-color: #C2DEDC;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    perspective: 1000px;
+  
+}
+.Gate{
+  font-size: medium;
+  font-style: normal;
+  color: rgb(50, 28, 215);
+  text-align: center;
+  padding:2px 8px 2px 8px
+}
+.flip-card-inner {
+  position: relative;
+  width: inherit;
+  height: inherit;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  padding-top: 5px;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  background-color: #116A7B;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+  
+  
+ 
+ 
